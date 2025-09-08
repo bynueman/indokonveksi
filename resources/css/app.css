@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Jika kamu ingin override warna primary Filament (jika belum otomatis berubah) */
+:root {
+  --primary-50: #fbeaea;
+  --primary-100: #f5c3c3;
+  --primary-200: #ef9b9b;
+  --primary-300: #e97474;
+  --primary-400: #e34d4d;
+  --primary-500: #930B0B;   /* warna utama kamu */
+  --primary-600: #7f0909;
+  --primary-700: #690808;
+  --primary-800: #530606;
+  --primary-900: #3d0505;
+}
+
+/* Jika pakai dark mode dan ingin kontrol lebih */
+.dark {
+  --primary-500: #930B0B;
+}
