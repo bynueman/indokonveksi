@@ -5,7 +5,6 @@ use App\Models\Tracking;
 Route::get('/', function () {
     return view('welcome');
 });
-
 Route::get('/tracking', function () {
     $search = request('search');
 
